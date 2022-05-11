@@ -1,0 +1,83 @@
+body {
+  background-color: #f1f1f1;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "navbar" "header" "aside" "main" "footer"; }
+
+.negrita {
+  font-weight: bold; }
+
+.navbar {
+  background-color: white;
+  color: #424242;
+  align-items: center;
+  grid-area: navbar; }
+
+.navbar .menu {
+  display: flex;
+  justify-content: space-around; }
+
+.navbar .menu li {
+  list-style: none; }
+
+.navbar .menu a {
+  text-decoration: none;
+  color: white; }
+
+p {
+  color: #242423; }
+  p span {
+    color: yellowgreen; }
+
+.navbar .logo {
+  width: 10%; }
+
+.banner-principal {
+  width: 100%; }
+
+.imagen-quienessomos {
+  width: 60%;
+  border-radius: 10%; }
+
+.imagen-clientes {
+  width: 60%; }
+
+.imagen-body {
+  width: 60%;
+  border-radius: 50%;
+  animation-name: agrandarimagen;
+  animation-duration: 3s; }
+
+.img-thumbnail {
+  width: 60%; }
+
+.header {
+  grid-area: header; }
+
+.aside {
+  grid-area: aside; }
+
+.main {
+  grid-area: main; }
+
+.footer {
+  grid-area: footer; }
+
+/* ANIMACION */
+@keyframes agrandarimagen {
+  0% {
+    transform: scale(1); }
+  20% {
+    transform: scale(1.3); }
+  40% {
+    transform: scale(1); }
+  60% {
+    transform: scale(1.3); }
+  70% {
+    transform: scale(1); }
+  80% {
+    transform: scale(1.3); }
+  90% {
+    transform: scale(1); }
+  0% {
+    transform: scale(1.3); } }
