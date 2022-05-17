@@ -1,5 +1,10 @@
+@import "reset";
+@import "variables";
+@import "navbar";
+
+
 body {
-    background-color: rgb(241, 241, 241);
+    background-color: $color-primario;
     text-align: center;
     display: grid;
     grid-template-areas: 
@@ -10,85 +15,46 @@ body {
     "footer";
 }
 
-.negrita
-{
-font-weight: bold;
-}
-.navbar {
-    background-color: rgb(255, 255, 255); 
-    color: rgb(66, 66, 66);
-    align-items: center;
-    grid-area: navbar;
-} 
 
-.navbar .menu {
-    display: flex;
-    justify-content: space-around;
+header {
+    grid-area: header;
+  img {
+    width: 100%;
+  }  
 }
 
-.navbar .menu li {
-    list-style: none;
-}
-
-.navbar .menu a {
-    text-decoration: none;
-    color: white;
-}
-
-p {
-    color: rgb(36, 36, 35);
-    span {
-        color: yellowgreen;
+aside {
+    grid-area: aside;
+    h3 {
+        font-weight: bold;
+    }
+    span{
+        font-weight: bold;
     }
 }
-.navbar .logo {
-    width: 10%;
+
+main {
+    grid-area: main; 
+    img {
+            width: 60%;
+            border-radius: 50%;
+            animation-name: agrandarimagen;
+            animation-duration: 3s;  
+        }
+        h3{
+            font-weight: bold;
+        }
+        span{
+            font-weight: bold;
+        }    
 }
 
-.banner-principal {
-    width: 100%;
-}
-
-.imagen-quienessomos
-{
-    width: 60%;
-    border-radius: 10%;
-}
-
-.imagen-clientes {
-    width: 60%;
-                }
-
-.imagen-body {
-    width: 60%;
-    border-radius: 50%;
-    animation-name: agrandarimagen;
-    animation-duration: 3s;
-}
-
-.img-thumbnail
-{
-    width: 60%;
-}
-
-.header {
-    grid-area: header;
-    
-}
-.aside {
-    grid-area: aside;
-    
-}
-
-.main {
-    grid-area: main;
-       
-}
-
-.footer {
+footer {
     grid-area: footer;
-    
-}
+    em{
+        font-weight: bold;
+    }
+    }
 
 /* ANIMACION */                
 
