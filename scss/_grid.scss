@@ -1,0 +1,6 @@
+@each $pagew, $areaw in $mainw {
+    .#{$pagew}-body {
+        display: grid;
+        grid-template-areas: $areaw;
+    }
+}

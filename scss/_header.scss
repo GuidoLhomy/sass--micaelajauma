@@ -1,0 +1,9 @@
+header {
+    grid-area: header;
+    
+    img {
+        @include size(100%);
+    }
+
+    
+}
