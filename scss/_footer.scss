@@ -5,9 +5,15 @@ footer {
     h4 {
         @extend h3;
     }
-
+    ul {
+        
+        list-style: none;
+        display: inline;
+            }
+    
     a {
+        text-align: center;
         text-decoration: none;
         color: red;
-    }
+        }
 }

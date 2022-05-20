@@ -14,7 +14,11 @@ header {
 footer {
   justify-content: center;
   font-weight: bold; }
+  footer ul {
+    list-style: none;
+    display: inline; }
   footer a {
+    text-align: center;
     text-decoration: none;
     color: red; }
 
@@ -74,6 +78,8 @@ main {
     animation-duration: 3s; }
   main h3, main footer h4, footer main h4 {
     font-weight: bold; }
+  main p {
+    padding: 5%; }
   main span {
     font-weight: bold; }
 
