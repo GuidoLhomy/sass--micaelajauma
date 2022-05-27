@@ -18,6 +18,14 @@
            font-size: 100%; 
              
         }
+    
+        form {
+            width: 50%;
+        }
+
+        h2 {
+            font-size: 30px
+        }
     }
     
 }
@@ -35,6 +43,14 @@
             "footer footer footer";
     }
 
+    form {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+    
   
 }
 
@@ -49,7 +65,16 @@
             "aside aside aside"
             "main main main"
             "footer footer footer";
-    }
+        
+        form {
+            width: 50%
+        }
+        h2 {
+            font-size: 30px
+        }
+        }
+
+
 
 
     .banner-principal {

@@ -11,16 +11,38 @@ header {
   header img {
     width: 100%; }
 
+form {
+  width: 100%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+  form h2 {
+    color: #ffc104;
+    font-size: 10px; }
+  form input, form textarea, form label, form select {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box; }
+  form textarea {
+    min-height: 100px;
+    max-height: 200px; }
+
 footer {
   justify-content: center;
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: black; }
+  footer h4 {
+    color: #ffc107; }
   footer ul {
     list-style: none;
     display: inline; }
   footer a {
     text-align: center;
     text-decoration: none;
-    color: red; }
+    color: #ffc107; }
 
 @media (min-width: 600px) {
   body {
@@ -30,19 +52,31 @@ footer {
   h1 {
     font-size: 60px; }
   .main table {
-    font-size: 100%; } }
+    font-size: 100%; }
+  .main form {
+    width: 50%; }
+  .main h2 {
+    font-size: 30px; } }
 
 @media (min-width: 900px) {
   body {
     grid-template-columns: 350px auto;
     grid-template-rows: 1fr;
-    grid-template-areas: "navbar navbar navbar" "header header header" "aside main main" "footer footer footer"; } }
+    grid-template-areas: "navbar navbar navbar" "header header header" "aside main main" "footer footer footer"; }
+  form {
+    width: 50%; }
+  h2 {
+    font-size: 30px; } }
 
 @media (min-width: 1200px) {
   body {
     grid-template-columns: 35% auto;
     grid-template-rows: 1fr;
     grid-template-areas: "navbar navbar navbar" "header header header" "aside aside aside" "main main main" "footer footer footer"; }
+    body form {
+      width: 50%; }
+    body h2 {
+      font-size: 30px; }
   .banner-principal {
     width: 100%; }
   .texto-home {
@@ -64,7 +98,7 @@ aside {
     border-radius: 50%;
     animation-name: agrandarimagen;
     animation-duration: 3s; }
-  aside h3, aside footer h4, footer aside h4 {
+  aside h3 {
     font-weight: bold; }
   aside span {
     font-weight: bold; }
@@ -76,7 +110,7 @@ main {
     border-radius: 50%;
     animation-name: agrandarimagen;
     animation-duration: 3s; }
-  main h3, main footer h4, footer main h4 {
+  main h3 {
     font-weight: bold; }
   main p {
     padding: 5%; }
