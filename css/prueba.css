@@ -20,11 +20,10 @@ form {
   margin-top: 20px;
   border-radius: 7px; }
   form h2 {
-    color: #ffc104;
-    font-size: 10px; }
+    color: #ffc104; }
   form input, form textarea, form label, form select {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box; }
   form textarea {
     min-height: 100px;
@@ -102,6 +101,10 @@ aside {
     font-weight: bold; }
   aside span {
     font-weight: bold; }
+  aside th {
+    padding: 0px !important; }
+  aside td {
+    padding: 0px !important; }
 
 main {
   grid-area: main; }
