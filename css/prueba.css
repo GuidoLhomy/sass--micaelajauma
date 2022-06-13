@@ -30,16 +30,19 @@ form {
     max-height: 200px; }
 
 footer {
-  justify-content: center;
+  margin-top: 5%;
+  text-align: center;
   font-weight: bold;
   background-color: black; }
   footer h4 {
     color: #ffc107; }
   footer ul {
-    list-style: none;
-    display: inline; }
+    list-style: none; }
+  footer li {
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%; }
   footer a {
-    text-align: center;
     text-decoration: none;
     color: #ffc107; }
 
